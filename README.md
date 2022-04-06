@@ -69,7 +69,7 @@ jupyter notebook --no-browser --port $port --notebook-dir=$(pwd)
 "
 ```
 
-### install a package in singularity
+### Install a package in singularity
 First open the container. Here as an example, a "my_pytorch.ext3" container is used. It has a 'cuda11.2.2-cudnn8-devel-ubuntu20.04' installed
 ```
 singularity exec --overlay my_pytorch.ext3 /scratch/work/public/singularity/cuda11.2.2-cudnn8-devel-ubuntu20.04.sif /bin/bash
