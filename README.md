@@ -85,7 +85,11 @@ After you're done installing all pakcages, exit from the singularity container
 ```
 exit
 ```
-### Check and Cancel jobs
+### Submit, Check, and Cancel jobs
+To submit a job, use "sbatch"
+```
+sbatch example.SBATCH
+```
 To check the status of the submitted job in the queue, use "squeue"
 ```
 squeue -u <NetID>
